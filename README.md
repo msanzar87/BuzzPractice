@@ -1,20 +1,20 @@
-#Practice
+# Practice
 
 ---
-###Clone project to your computer:
+### Clone project to your computer:
 
 - Navigate to a folder in your terminal that you would like to store the file and enter. 
   
   - git clone https://github.com/MBuzzard87/practice.git
 
 
-###Create a repo within on your own GitHub:
+### Create a repo within on your own GitHub:
 
 - Navigate to your GitHub home page, click on "Repositories" then click "New".  
 - Name the repo, DO NOT add a readme, gitinore, or license. Click create "Repository" 
 
 
-###Add the project to your GitHub
+### Add the project to your GitHub
 
 - After cloning the project to your local computer and navigating to the location of your 
   project within the terminal enter.
@@ -47,7 +47,7 @@ Example: git remote set-url origin https://github.com/username/new_repo
 
 
 
-#Work in your dev branch!!!
+# Work in your dev branch!!!
 
 ---
 
