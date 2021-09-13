@@ -9,20 +9,7 @@ public class SmallestNumberNotInAnArray {
 
     public int getSmallestNumber(int[] numArr) {
 
-        Set<Integer> numSet = new HashSet<>();
-        int lowestNum = 1;
 
-        for(int num : numArr) {
-            numSet.add(num);
-        }
-
-        for(int i = 1; i <= 100000; i++) {
-            if(numSet.add(i)) {
-                lowestNum = i;
-                break;
-            }
-        }
-
-        return lowestNum;
+        return 0;
     }
 }
