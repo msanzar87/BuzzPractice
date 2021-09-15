@@ -38,11 +38,8 @@ public class BasicMath {
      * @return an int of the sum of num1 and num2
      */
     public int add(int num1, int num2) {
-
-
-        return 0;
+        return num1 + num2;
     }
-
 
 
     /**
@@ -53,7 +50,7 @@ public class BasicMath {
     public int subtract(int num1, int num2) {
 
 
-        return 0;
+        return num1 - num2;
     }
 
 
@@ -64,9 +61,7 @@ public class BasicMath {
      * @return an int from num1 multiplied by num2
      */
     public int multiply(int num1, int num2) {
-
-
-        return 0;
+        return num1 * num2;
     }
 
 
@@ -94,5 +89,7 @@ public class BasicMath {
 
         return 0;
     }
+
+
 
 }
