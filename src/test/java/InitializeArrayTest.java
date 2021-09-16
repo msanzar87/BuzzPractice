@@ -51,17 +51,15 @@ public class InitializeArrayTest {
     @Test
     public void testArray2() {
 
-
         int num = 1;
         int[] actual = arr.initArrRandom(num);
-        int[] expected = {0};
+        int[] expected = {0,1};
 
         assertArrayEquals(expected,actual);
     }
 
     @Test
     public void testArray3() {
-
 
         int num = 9;
         int[] actual = arr.initArrRandom(num);
