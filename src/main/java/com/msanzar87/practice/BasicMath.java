@@ -1,11 +1,13 @@
+package com.msanzar87.practice;
+
 public class BasicMath {
 
     /*
     Create 3 tests for each method
 
-    - Right click on BasicMath, scroll down and select 'Generate'
+    - Right click on com.msanzar87.practice.BasicMath, scroll down and select 'Generate'
     - Click on 'Test...', select all the methods below and click 'OK'
-    - Instantiate BasicMath within the BasicMathTest class to call on methods within BasicMath
+    - Instantiate com.msanzar87.practice.BasicMath within the BasicMathTest class to call on methods within com.msanzar87.practice.BasicMath
 
 
     Example:
@@ -15,7 +17,7 @@ public class BasicMath {
 
     public class BasicMathTest {
 
-    BasicMath bm = new BasicMath();  <------ Instantiated
+    com.msanzar87.practice.BasicMath bm = new com.msanzar87.practice.BasicMath();  <------ Instantiated
 
        @Test
        public void add1() {

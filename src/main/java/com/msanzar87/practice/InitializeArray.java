@@ -1,3 +1,5 @@
+package com.msanzar87.practice;
+
 public class InitializeArray {
 
     //Declare/Initialize an array to the size of num containing only the value of num.

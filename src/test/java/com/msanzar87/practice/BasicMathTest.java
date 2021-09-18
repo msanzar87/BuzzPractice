@@ -1,3 +1,6 @@
+package com.msanzar87.practice;
+
+import com.msanzar87.practice.BasicMath;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

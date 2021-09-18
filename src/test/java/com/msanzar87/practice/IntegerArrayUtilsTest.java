@@ -1,3 +1,6 @@
+package com.msanzar87.practice;
+
+import com.msanzar87.practice.IntegerArrayUtils;
 import org.junit.Assert;
 import org.junit.Test;
 
