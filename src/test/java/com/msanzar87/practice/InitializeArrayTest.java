@@ -1,3 +1,6 @@
+package com.msanzar87.practice;
+
+import com.msanzar87.practice.InitializeArray;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;

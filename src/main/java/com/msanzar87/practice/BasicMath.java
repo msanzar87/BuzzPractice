@@ -1,3 +1,5 @@
+package com.msanzar87.practice;
+
 public class BasicMath {
 
     /*
@@ -5,7 +7,7 @@ public class BasicMath {
 
     - Right click on BasicMath, scroll down and select 'Generate'
     - Click on 'Test...', select all the methods below and click 'OK'
-    - Instantiate BasicMath within the BasicMathTest class to call on methods within BasicMath
+    - Instantiate BasicMath within the BasicMathTest class to call on methods within com.msanzar87.practice.BasicMath
 
 
     Example:
