@@ -9,9 +9,9 @@ public class Inventory {
 
 
     /**
-     * @param strings list of strings to add / remove / fetch from
+     * @param strList list of strings to add / remove / fetch from
      */
-    public Inventory(List<String> strings) {
+    public Inventory(List<String> strList) {
         //constructor
     }
 
@@ -41,6 +41,12 @@ public class Inventory {
      * @return - return the number of items
      */
     public Integer getItemQuantity(String item) {
+
+        return null;
+    }
+
+    //Fill the parameter with the ArrayList
+    public String getFirstItem(List<String> strList){
 
         return null;
     }
