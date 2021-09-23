@@ -1,10 +1,22 @@
 package com.msanzar87.practice;
 
 public class BasicString {
-    public char firstChar(String str) {
 
-        return str.charAt(0);
-    }
+
+
+
+
+
+
+
+
+
+
+
+    //public char firstChar(String str) {
+
+        //return str.charAt(0);
+    //}
 
     public char secondToLastChar(String str) {
         return str.charAt(str.length()-2);
@@ -12,6 +24,10 @@ public class BasicString {
 
     public boolean containsLetter(String str, String c) {
         return str.contains(c);
+    }
+
+    public char firstChar(String str) {
+        return str.charAt(0);
     }
     // Create tests before writing the methods below in this class
     // 1. Write a method that returns the first character of a String

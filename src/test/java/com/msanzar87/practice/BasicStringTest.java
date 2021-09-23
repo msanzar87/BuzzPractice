@@ -10,9 +10,9 @@ public class BasicStringTest {
 
     @Test
     public void test1stChar(){
-        char expected = 't';
+        char expected = 'l';
 
-        char actual = bs.firstChar("test");
+        char actual = bs.firstChar("love");
 
         assertEquals(expected,actual);
     }
