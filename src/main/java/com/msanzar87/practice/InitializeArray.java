@@ -21,7 +21,7 @@ public class InitializeArray {
 
     //Check test cases to figure out array size and values being stored.  Hint: use a for loop to fill the values
     public int[] initArrRandom(int num) {
-
+        int[] arr = new int[num];
 
         return null;
     }
