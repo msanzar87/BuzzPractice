@@ -1,6 +1,6 @@
 import com.msanzar87.practice.Person;
 
-public class MainApplication {
+public class MainPersonApplication {
 
 
     public static void main(String[] args) {
