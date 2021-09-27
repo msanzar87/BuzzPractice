@@ -9,4 +9,5 @@ public class Duplicates {
     //Create a method that returns an int array leaving out any duplicate numbers
 
     //Create a method that returns an int with the number of duplicate values within an array
+
 }
