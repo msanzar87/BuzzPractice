@@ -6,7 +6,7 @@ import java.util.List;
 public class Inventory {
 
     //field to delcare/instatiate an ArrayList
-
+    List<Inventory> strList = new ArrayList<>(Inventory);
 
     /**
      * @param strList list of strings to add / remove / fetch from
