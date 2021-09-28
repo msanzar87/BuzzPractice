@@ -23,7 +23,8 @@ public class MainClassroomApplication {
         Classroom mathClass = new Classroom(students);
 
         // Iterate through the classroom and print each classmates name and gender
-        for (int i = 0; i < ; i++) {
+        for (int i = 0; i < mathClass.getStudents().size(); i++) {
+            System.out.println(mathClass.getStudents().get(i).getGender());
 
         }
 
