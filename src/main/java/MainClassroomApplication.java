@@ -10,21 +10,23 @@ public class MainClassroomApplication {
 
     public static void main(String[] args) {
         // Create an ArrayList and add 5 students
-        List<Student> students = new ArrayList<>();
 
-        students.add(new Student("Buzz", 'M', 34));
-        students.add(new Student("Munir",'M',34));
-        students.add(new Student("Christian",'M', 42));
-        students.add(new Student("Laura",'F',31));
-        students.add(new Student("Melissa",'F',28));
-        students.add(new Student("Pete",'N',27));
+
 
         // Create a classroom for the list of students to be enrolled in
-        Classroom mathClass = new Classroom(students);
+        Classroom mathClass = new Classroom(new ArrayList<>());
+        Classroom liberalArts = new Classroom(new ArrayList<>());
 
-        // Iterate through the classroom and print each classmates name and gender
-        for (int i = 0; i < mathClass.getStudents().size(); i++) {
-            System.out.println(mathClass.getStudents().get(i).getGender());
+        mathClass.getStudents().add(new Student("Buzz", 'M', 34));
+        liberalArts.getStudents().add(new Student("Kyle", 'M', 54));
+        liberalArts.getStudents().add(new Student("Munir", 'M', 34));
+
+        System.out.println(mathClass.getStudents().get(0).getName());
+
+
+         //Iterate through the classroom and print each classmates name and gender
+        for (int i = 0; i < liberalArts.getStudents().size(); i++) {
+            System.out.println(liberalArts.getStudents().get(i).getName());
 
         }
 
