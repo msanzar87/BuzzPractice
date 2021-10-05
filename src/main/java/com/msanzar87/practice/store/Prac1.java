@@ -4,6 +4,6 @@ public class Prac1 {
     public static void main(String[] args) {
         double random = Math.ceil(Math.random() * 12);
 
-        System.out.println((int)random);
+
     }
 }
